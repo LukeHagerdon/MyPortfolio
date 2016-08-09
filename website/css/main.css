@@ -1,0 +1,279 @@
+@import url(normalize.css);
+@import url(hamburgler.css);
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  min-width: 100% !important; }
+
+::selection {
+  background: #09f091;
+  color: #ffffff; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1f2c39;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400; }
+
+p {
+  color: #b3b3b3; }
+
+.social_media {
+  padding: 0 20px 0 20px; }
+  .social_media i {
+    color: #475a6e;
+    padding: 0 10px 0 10px;
+    transition: .2s ease-in-out all;
+    cursor: pointer; }
+    .social_media i:hover {
+      color: #ffffff;
+      transition: .2s ease-in-out all;
+      cursor: pointer; }
+
+header {
+  width: 100%;
+  height: 70vh;
+  background: #1f2c39;
+  padding-top: 20px; }
+  header h1 {
+    max-width: 100%;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 35pt;
+    letter-spacing: 5pt;
+    line-height: 50vh;
+    text-align: center; }
+    header h1 span {
+      border-bottom: solid #09f091 2px; }
+  header .icon {
+    float: left; }
+  header .mobilenav i {
+    color: #ffffff;
+    padding: 0 20px 0 20px;
+    font-size: 14pt;
+    transition: .2s ease-in-out all;
+    cursor: pointer; }
+    header .mobilenav i:hover {
+      color: #09f091;
+      transition: .2s ease-in-out all;
+      cursor: pointer; }
+  header .social_media {
+    padding: 0 20px 0 20px; }
+    header .social_media i {
+      color: #475a6e;
+      padding: 0 10px 0 10px;
+      transition: .2s ease-in-out all;
+      cursor: pointer; }
+      header .social_media i:hover {
+        color: #ffffff;
+        transition: .2s ease-in-out all;
+        cursor: pointer; }
+
+.about {
+  height: 100vh;
+  max-width: 100%; }
+  .about h1 {
+    font-size: 30pt;
+    text-align: center;
+    padding-top: 4em; }
+  .about p {
+    font-size: 14pt;
+    padding-top: .3em;
+    text-align: center;
+    word-spacing: .2em;
+    line-height: 1.4em;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto; }
+    .about p .name {
+      color: #1f2c39; }
+    .about p .link {
+      text-decoration: underline;
+      text-decoration-color: #09f091;
+      text-decoration-style: solid 2pt; }
+  .about img {
+    width: 15%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em; }
+
+.work {
+  max-width: 100%;
+  height: 100vh;
+  background: #f5f5f5; }
+  .work h1 {
+    text-align: center;
+    padding-top: 2em;
+    font-size: 30pt; }
+  .work p {
+    font-size: 14pt;
+    padding-top: .3em;
+    text-align: center;
+    word-spacing: .2em;
+    line-height: 1.4em;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden; }
+  .work img {
+    width: 20%;
+    height: 50%;
+    position: relative;
+    left: 40%;
+    top: 40px;
+    box-shadow: -11px 16px 29px -15px rgba(0, 0, 0, 0.75); }
+
+.contact {
+  max-width: 100%;
+  height: 100vh; }
+  .contact h1 {
+    text-align: center;
+    padding-top: 2em;
+    font-size: 30pt; }
+  .contact p {
+    text-align: center;
+    word-spacing: .2em;
+    line-height: 1.4em;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 14pt;
+    padding-top: .3em; }
+  .contact input,
+  .contact textarea,
+  .contact button {
+    width: 24em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14pt;
+    margin-top: 1em; }
+  .contact .name {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #1f2c39;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 2em;
+    font-family: "Raleway", sans-serif; }
+  .contact .email {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #1f2c39;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: "Raleway", sans-serif; }
+  .contact .message {
+    outline: none;
+    border: 2px solid #1f2c39;
+    padding-top: 5px;
+    padding-left: 10px;
+    height: 8em;
+    font-family: "Raleway", sans-serif; }
+  .contact .button {
+    height: 2.5em;
+    background: #1f2c39;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    -webkit-transition: .2s ease-in-out all;
+    transition: .2s ease-in-out all; }
+    .contact .button:hover {
+      -webkit-transition: .2s ease-in-out all;
+      transition: .2s ease-in-out all;
+      background: #31465a; }
+
+footer {
+  background: #1f2c39;
+  height: 15vh;
+  max-width: 100%;
+  text-align: center; }
+  footer .text {
+    line-height: 15vh; }
+    footer .text h1 {
+      color: #374655;
+      font-size: .7em;
+      letter-spacing: .3em;
+      margin-bottom: 0; }
+
+@media only screen and (max-width: 800px) {
+  header h1 {
+    font-size: 30pt; }
+
+  .about h1 {
+    font-size: 30pt;
+    text-align: center;
+    padding-top: 8em; }
+  .about p {
+    font-size: 14pt;
+    padding-top: .3em;
+    text-align: center;
+    word-spacing: .2em;
+    line-height: 1.4em;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto; }
+    .about p .name {
+      color: #1f2c39; }
+    .about p .link {
+      text-decoration: underline;
+      text-decoration-color: #09f091;
+      text-decoration-style: solid 2pt; }
+  .about img {
+    width: 15%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em; }
+
+  .contact h1 {
+    padding-top: 4em; } }
+@media only screen and (max-width: 500px) {
+  header h1 {
+    font-size: 25pt; }
+  header .social_media {
+    display: none; }
+
+  .about h1 {
+    padding-top: 8em;
+    font-size: 20pt; }
+  .about p {
+    font-size: 12pt;
+    width: 70%; }
+  .about img {
+    width: 18%; }
+
+  .work h1 {
+    padding-top: 3em;
+    font-size: 20pt; }
+  .work p {
+    font-size: 12pt; }
+
+  .contact h1 {
+    padding-top: none;
+    font-size: 20pt; }
+  .contact p {
+    max-width: 70%;
+    font-size: 12pt; }
+  .contact input,
+  .contact textarea,
+  .contact .button {
+    width: 24em;
+    max-width: 70%;
+    font-size: 12pt; } }
+@media only screen and (max-width: 366px) {
+  header h1 {
+    font-size: 20pt; } }
+
+/*# sourceMappingURL=main.css.map */

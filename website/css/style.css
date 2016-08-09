@@ -1,0 +1,275 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\000037}}
+body, html {
+  margin: auto;
+  padding: 0;
+  font-family: 'Raleway', sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\0000313}}
+::selection {
+  background: #09f091;
+  color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\0000324}}
+header {
+  width: 100%;
+  height: 70vh;
+  background: #1f2c39;
+  padding-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\0000329}}
+  header h1 {
+    max-width: 100%;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 30pt;
+    letter-spacing: 5pt;
+    line-height: 50vh;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\0000337}}
+    header h1 span {
+      border-bottom: solid #09f091 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\0000341}}
+  header .icon {
+    float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\0000345}}
+  header .mobilenav i {
+    color: #ffffff;
+    padding: 0 20px 0 20px;
+    font-size: 14pt;
+    transition: .2s ease-in-out all;
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\0000351}}
+    header .mobilenav i:hover {
+      color: #09f091;
+      transition: .2s ease-in-out all;
+      cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\0000358}}
+  header .social_media {
+    padding: 0 20px 0 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\0000360}}
+    header .social_media i {
+      color: #475a6e;
+      padding: 0 10px 0 10px;
+      transition: .2s ease-in-out all;
+      cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\0000365}}
+      header .social_media i:hover {
+        color: #ffffff;
+        transition: .2s ease-in-out all;
+        cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\0000386}}
+.portfolio {
+  height: 90vh;
+  background: #f9fafa;
+  padding-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\0000391}}
+  .portfolio .content h1 {
+    font-weight: 400;
+    font-size: 30pt;
+    border-left: solid 3px #09f091;
+    padding-left: 20px;
+    color: #1f2c39;
+    margin-left: 100pt;
+    margin-top: 50pt; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003100}}
+  .portfolio .content #italic {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 12pt;
+    color: #1f2c39;
+    margin-left: 100pt; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003122}}
+.video {
+  height: 50vh;
+  background: url("../img/vw.jpe") no-repeat center center black;
+  background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003126}}
+  .video .play {
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003128}}
+    .video .play i {
+      color: #ffffff;
+      font-size: 120px;
+      line-height: 50vh;
+      text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003149}}
+.about {
+  height: 90vh; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003151}}
+  .about .content {
+    margin-left: 100pt;
+    margin-top: 50pt; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003154}}
+    .about .content img {
+      width: 45%;
+      height: 65%;
+      float: right;
+      padding-right: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003160}}
+    .about .content h1 {
+      font-weight: 400;
+      font-size: 30pt;
+      border-left: solid 3px #09f091;
+      padding-left: 20px;
+      color: #1f2c39; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003167}}
+    .about .content #italic {
+      font-style: italic;
+      font-weight: 300;
+      font-size: 12pt;
+      color: #1f2c39; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003173}}
+    .about .content #main_p {
+      color: #999797;
+      font-weight: 300;
+      font-size: 12pt;
+      width: 50%;
+      word-wrap: break-word;
+      line-height: 5vh;
+      letter-spacing: 2pt; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003182}}
+    .about .content button {
+      color: #ffffff;
+      background: #1f2c39;
+      border: none;
+      border-radius: 3px;
+      width: 200pt;
+      height: 40pt;
+      font-weight: 400;
+      transition: .2s ease-in-out all;
+      outline: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003192}}
+      .about .content button:hover {
+        transition: .2 ease-in-out all;
+        background: #31465a; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003212}}
+.contact {
+  height: 80vh;
+  width: 100%;
+  background: #f9fafa; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003216}}
+  .contact .social {
+    margin-left: 10%;
+    padding-top: 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003219}}
+    .contact .social h1 {
+      font-weight: 400;
+      font-size: 30pt;
+      border-left: solid 3px #09f091;
+      padding-left: 20px;
+      color: #1f2c39; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003226}}
+    .contact .social h5 {
+      color: #72869a;
+      font-weight: bold;
+      letter-spacing: .3em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003232}}
+  .contact .form {
+    width: 55%;
+    background: #f9fafa;
+    float: right;
+    margin-top: -15em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003237}}
+    .contact .form .cnt_form,
+    .contact .form .button {
+      margin-left: 20%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003241}}
+    .contact .form .name,
+    .contact .form .email,
+    .contact .form .message {
+      background: #f9fafa;
+      border: none;
+      border-bottom: #1f2c39 solid 1px;
+      width: 60%;
+      padding-left: 10pt;
+      padding-bottom: 10pt;
+      outline: none;
+      font-size: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003253}}
+    .contact .form .message {
+      border: #1f2c39 solid 1px;
+      padding-top: 10pt; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003257}}
+    .contact .form .button {
+      color: #ffffff;
+      background: #1f2c39;
+      border: none;
+      border-radius: 3px;
+      width: 150pt;
+      height: 40pt;
+      font-weight: 400;
+      transition: .2s ease-in-out all;
+      outline: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003267}}
+      .contact .form .button:hover {
+        transition: .2 ease-in-out all;
+        background: #31465a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003273}}
+  .contact .social_media {
+    margin-left: 8.8%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003275}}
+    .contact .social_media i {
+      color: #1f2c39;
+      padding: 50px 20px 0 20px; }
+
+@media (max-width: 500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003297}}
+  header h1 {
+    font-size: 25pt; } }
+@media (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003308}}
+  header h1 {
+    font-size: 16pt; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003311}}
+  header .social_media {
+    visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003315}}
+  .about {
+    max-width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003317}}
+    .about .content {
+      margin-top: 30pt;
+      margin-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003320}}
+      .about .content img {
+        padding-right: 0;
+        width: 75%;
+        height: 75%;
+        padding-bottom: 10pt;
+        border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003327}}
+      .about .content h1 {
+        font-size: 20pt;
+        width: 55%;
+        padding-left: 0;
+        text-align: center !important;
+        border-left: none;
+        border-bottom: solid 3px #09f091;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 5pt; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003338}}
+      .about .content #italic {
+        text-align: center;
+        font-size: 10pt;
+        margin-top: 20pt; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003343}}
+      .about .content #main_p {
+        font-size: 11pt;
+        text-align: center;
+        width: 90%;
+        margin-top: 20pt;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 8vh; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Luke\%20Hagerdon\/Desktop\/website\/css\/style\.scss}line{font-family:\00003352}}
+      .about .content button {
+        max-width: 80%;
+        display: block;
+        margin: 0 auto; } }
+
+/*# sourceMappingURL=style.css.map */
